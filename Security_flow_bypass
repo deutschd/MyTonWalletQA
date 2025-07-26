@@ -1,0 +1,24 @@
+Title: Wallet can be imported and activated without passing security phrase confirmation test
+
+Description:
+When creating wallet there's "Recovery Phrase" that can be copied and going back user can import it and create account without passing "Test Time!".The user is not yet registered and has not passed the wallet recovery phrase confirmation test
+
+Steps:
+1. Tap "Create My Wallet"
+2. Tap "Proceed" to reveal the secret phrase
+3. Copy the words (do not tap "Done" or complete the confirmation test)
+4. Tap "Back" to return to the main screen
+5. Tap "Import Existing Wallet"
+6. Paste the previously copied phrase
+7. Confirm import
+
+Actual Result:
+The app shows a success message, and the wallet is created/imported without passing the recovery phrase confirmation test
+
+Expected Result:
+The app should not allow importing a wallet using the secret phrase generated during the current session unless the user has completed the phrase confirmation step. This step is crucial for ensuring the user actually saved their secret phrase and understands its importance
+
+Platform: iOS 17.5.1
+Device: iPhone 14 Pro
+Version: v3.7.4
+Severity: High (Security flow bypass)
