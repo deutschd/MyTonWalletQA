@@ -1,0 +1,10 @@
+Description:
+There's an image of a d*ck and "name": "DICKSHOTI",
+	"symbol": "DICKSHOTI", in the accepted data: 
+The image is on: 
+https://imgproxy.mytonwallet.org/imgproxy/awM3ESvY-l3S4A1ogzAQ0y77N0UAeakn_83JvVerN5E/rs:fill:200:200:1/g:no/aHR0cHM6Ly9jZG4uYmx1bS5jb2Rlcy8yNTMxYTc4OC03NzFhLTQ5MjEtYWZjMy05YTRmODU4MDJjMmMvNDRhMWZkZGYtMmIyOS00MGJmLWIxYjUtODZiMmZjZmVlZjIy.webp
+
+Steps:
+1. Install Charles Proxy
+2. Connect iOS device to Charles (with SSL)
+3. Get the data 
