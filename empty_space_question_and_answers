@@ -1,0 +1,19 @@
+Title: 
+Empty Space at Bottom of "Question and Answers" Section
+
+Description:
+In the "Question and Answers" section under Settings, when scrolling to the bottom, a noticeable empty space appears below the last line of text
+
+Steps:
+1. Navigate to Settings
+2. Tap "Question and Answers"
+3. Scroll to the very bottom of the section
+
+Actual Result:
+After scrolling to the end, a noticeable empty space is shown below the last line of text. The content feels cut off or unfinished, and there's no more actual text to display
+
+Expected Result:
+Scrolling should stop exactly at the end of the visible content, without leaving any extra empty area. All text should appear properly aligned to the bottom with no visual gap
+
+Attachments:
+https://github.com/user-attachments/assets/e28d4ef5-1ef2-4a94-8c89-a1269689ca50
