@@ -22,3 +22,6 @@ Platform: iOS 17.5.1
 Device: iPhone 14 Pro
 Version: v3.7.4
 Severity: High (Security flow bypass)
+
+Attachment:
+https://github.com/user-attachments/assets/9c5d8e7d-9a26-49ae-a96a-5593a407f644
