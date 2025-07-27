@@ -1,0 +1,24 @@
+Title: Multiple Taps to Avatar Switch to Main App
+
+Description: Tapping avatar multiple times redirects user from MyTonWallet Air to MyTonWallet. 
++ The password in the video 0000, Switched app can't take the first number as a correct password
+
+Steps:
+1. Open MyTonWallet Air.
+2. Go to Settings
+3. Tap the avatar icon (top circle) multiple times quickly
+
+Actual Result:
+The app unexpectedly redirects the user to the standard MyTonWallet interface or app view
+
+Expected Result:
+Tapping the avatar should consistently lead to the intended user/profile settings screen within MyTonWallet Air, without switching app modes or environments
+
+Platform: iOS 17.5.1
+Device: iPhone 14 Pro
+Version: v3.7.4
+Severity: High (Security flow bypass)
+
+Attached files:
+https://github.com/user-attachments/assets/046573eb-c736-40aa-a61b-38e2f6dbeeb4
+![Image](https://github.com/user-attachments/assets/13a3b9d9-c728-4d41-ab22-f4b8aefc8447)
