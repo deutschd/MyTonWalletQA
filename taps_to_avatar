@@ -17,7 +17,7 @@ Tapping the avatar should consistently lead to the intended user/profile setting
 Platform: iOS 17.5.1
 Device: iPhone 14 Pro
 Version: v3.7.4
-Severity: High (Security flow bypass)
+Severity: Medium
 
 Attached files:
 https://github.com/user-attachments/assets/046573eb-c736-40aa-a61b-38e2f6dbeeb4
