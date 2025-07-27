@@ -15,5 +15,10 @@ After scrolling to the end, a noticeable empty space is shown below the last lin
 Expected Result:
 Scrolling should stop exactly at the end of the visible content, without leaving any extra empty area. All text should appear properly aligned to the bottom with no visual gap
 
+Platform: iOS 17.5.1
+Device: iPhone 14 Pro
+Version: v3.7.4
+Severity: Low (UI/UX)
+
 Attachments:
 https://github.com/user-attachments/assets/e28d4ef5-1ef2-4a94-8c89-a1269689ca50
