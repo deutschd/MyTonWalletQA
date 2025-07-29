@@ -1,12 +1,12 @@
 Title: 
-Empty Space at Bottom of "Question and Answers" Section
+Empty Space at Bottom of "Question and Answers" and "Terms of Use" sections
 
 Description:
-In the "Question and Answers" section under Settings, when scrolling to the bottom, a noticeable empty space appears below the last line of text
+In the "Question and Answers" and "Terms of Use" sections under Settings, when scrolling to the bottom, a noticeable empty space appears below the last line of text
 
 Steps:
 1. Navigate to Settings
-2. Tap "Question and Answers"
+2. Tap "Question and Answers" / "Terms of Use"
 3. Scroll to the very bottom of the section
 
 Actual Result:
