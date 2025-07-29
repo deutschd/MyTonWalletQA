@@ -1,0 +1,28 @@
+Title: Inconsistent Input Field Color for Amount in "Add Stake"
+
+Description:
+In "Wallet → Earn → Add Stake", when entering 0 in the Amount field, it turns red as expected. If you then add .0000, the zeros appear in white (not red). However, if you delete everything and type 0.0000 again, all characters are red as expected.
+This inconsistency in input validation color can confuse users and affect UX clarity
+
+Steps:
+1. Navigate to Wallet → Earn → Add Stake.
+2. In the Amount input field, type 0.
+3. Then type .0000 (e.g., 0.0000).
+4. Observe the color of the entered digits
+5. Now delete the entire value until 0
+6. Type 0.0000 again manually
+
+Actual Result:
+On step 3: 0 is shown in red, but .0000 is shown in white
+On step 6: the entire input 0.0000 is shown in red, as expected
+
+Expected Result:
+Invalid or zero stake amounts (e.g., 0.0000) should be consistently highlighted in red regardless of how the value is entered
+
+Platform: iOS 17.5.1
+Device: iPhone 14 Pro
+Version: v3.7.4
+Severity: Medium (UX)
+
+Attachment:
+https://github.com/user-attachments/assets/52fb5802-a871-4eb4-b01b-b2622d76b571
